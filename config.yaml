@@ -1,0 +1,81 @@
+baseurl: https://marcelorpf.github.io
+builddrafts: no
+canonifyurls: no
+languageCode: en-US
+contentdir: content
+layoutdir: layouts
+publishdir: public
+author: Marcelo Ferreira
+title: Marcelo Ferreira
+theme: hugo-goa
+disqusShortname:
+googleAnalytics: G-E5YLBXKETH
+enableRobotsTXT: yes
+params:
+  author: Marcelo Ferreira
+  authorimage: marcelo.png
+  dateformat: Jan 2, 2006
+  description: Dad, Professor, Researcher and Homebrewer.
+  extra:
+    copyright: © 2021. Marcelo Ferreira. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
+    displayrssicon: yes
+    highlightjs: yes
+    poweredby: yes
+    socialmarkup: yes
+    toc: yes
+  intro: Ph.D. in Machine Learning
+  meta:
+    description: Marcelo Ferreira's personal website
+    keywords: machine learning,R,python,statistics,data science,parenting,homebrew
+  social:
+    bitbucket:
+    email: marcelorpf@gmail.com
+    facebook:
+    fivehundredpx:
+    flickr:
+    foursquare:
+    github: marcelorpf
+    gitlab:
+    goodreads:
+    google:
+    googlescholar: mREGeCkAAAAJ&hl=en-US
+    hackernews:
+    instagram:
+    keybase:
+    kickstarter:
+    lastfm:
+    lattes: 2620157217100077
+    linkedin: marcelorpferreira
+    orcid: 0000-0003-0242-0255
+    patreon:
+    pgp:
+    pintrest:
+    publons: K-6146-2016
+    reddit:
+    skype:
+    snapchat:
+    soundcloud:
+    stackoverflow:
+    steam:
+    strava:
+    telegram: MRPFerreira
+    tumblr:
+    twitch:
+    twitter:
+    whatsapp:
+    xing:
+    youtube:
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 100
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 200
+    - identifier: coderag
+      name: coderag
+      url: /coderag/
+      weight: 300
