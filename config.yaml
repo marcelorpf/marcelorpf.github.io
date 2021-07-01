@@ -15,7 +15,7 @@ params:
   author: Marcelo Ferreira
   authorimage: marcelo.png
   dateformat: Jan 2, 2006
-  description: Dad, Professor, Researcher and Homebrewer.
+  description: I wear a lot of hats, just like many of you do. Most of the time, I'm a dad, husband, professor, researcher and homebrewer...
   extra:
     copyright: © 2021. Marcelo Ferreira. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
     displayrssicon: yes
@@ -79,8 +79,12 @@ menu:
     - identifier: resume
       name: resume
       url: #
-      weight: 200
+      weight: 300
     - identifier: projects
       name: projects
       url: #
-      weight: 300
+      weight: 400
+    - identifier: consulting
+      name: consulting
+      url: #
+      weight: 500
