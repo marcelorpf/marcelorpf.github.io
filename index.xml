@@ -6,7 +6,16 @@
     <description>Recent content on Marcelo Ferreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://marcelorpf.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 16:08:05 -0400</lastBuildDate><atom:link href="https://marcelorpf.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://marcelorpf.github.io/about/</link>
+      <pubDate>Wed, 30 Jun 2021 16:08:05 -0400</pubDate>
+      
+      <guid>https://marcelorpf.github.io/about/</guid>
+      <description>Marcelo R. P. Ferreira earned his Ph.D. degree in Computer Science in 2013 from Center of Informatics at Federal University of Pernambuco, Brazil. He earned both, his B.Sc. and M.Sc. degrees in Statistics in 2004 and 2007, respectively, from the Department of Statistics at Federal University of Pernambuco. Since december 2008, he takes part of Department of Statistics at Federal University of Paraiba, Brazil, where he is today an Adjunct Professor.</description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
       <link>https://marcelorpf.github.io/blog/2020-12-01-r-rmarkdown/</link>
