@@ -84,7 +84,7 @@ menu:
       name: projects
       url: #
       weight: 400
-    - identifier: consulting
-      name: consulting
-      url: http://www.de.ufpb.br/datalab/
+    - identifier: teaching
+      name: teaching
+      url: https://marcelorpf.github.io/teaching
       weight: 500
