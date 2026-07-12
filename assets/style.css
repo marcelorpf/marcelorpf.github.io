@@ -137,15 +137,17 @@ h1{
 
 .kernel{
   width: 100%;
-  max-width: 360px;
-  height: 48px;
+  max-width: 420px;
+  height: 72px;
   margin: 0 auto 34px;
   display: block;
   color: var(--accent);
 }
-.kernel-fill{ fill: var(--accent); opacity: 0.08; stroke: none; }
-.kernel-line{ fill: none; stroke: var(--accent); stroke-width: 1.6; }
-.kernel-axis{ stroke: var(--line); stroke-width: 1; }
+.kernel-fill{ fill: var(--accent); opacity: 0.16; stroke: none; }
+.kernel-line{ fill: none; stroke: var(--accent); stroke-width: 2.4; }
+.kernel-axis{ stroke: var(--line); stroke-width: 1.2; }
+.kernel-bump{ fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-dasharray: 3 2.5; opacity: 0.55; }
+.kernel-tick{ stroke: var(--accent); stroke-width: 2; }
 
 .icons{
   display: flex;
