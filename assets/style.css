@@ -135,19 +135,29 @@ h1{
   line-height: 1.55;
 }
 
-.kernel{
-  width: 100%;
-  max-width: 420px;
-  height: 72px;
-  margin: 0 auto 34px;
-  display: block;
-  color: var(--accent);
+.kernel-visual{
+  margin: 0 auto 30px;
+  max-width: 560px;
 }
-.kernel-fill{ fill: var(--accent); opacity: 0.16; stroke: none; }
-.kernel-line{ fill: none; stroke: var(--accent); stroke-width: 2.4; }
-.kernel-axis{ stroke: var(--line); stroke-width: 1.2; }
-.kernel-bump{ fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-dasharray: 3 2.5; opacity: 0.55; }
-.kernel-tick{ stroke: var(--accent); stroke-width: 2; }
+.kernel-visual img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.kernel-caption{
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--muted);
+  margin: 12px auto 0;
+  max-width: 480px;
+  line-height: 1.5;
+}
+.kernel-caption a{
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+}
+.kernel-caption a:hover{ border-color: var(--accent); }
 
 .icons{
   display: flex;
