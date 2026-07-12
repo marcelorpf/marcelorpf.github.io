@@ -15,7 +15,7 @@
 
   <div class="wrap">
 
-    <!-- ============ HEADER ============ -->
+    <!-- ============ HEADER / HERO ============ -->
     <header class="hero">
       <button class="lang-toggle" id="langToggle" aria-label="Switch language">
         <span class="lt-pt">PT</span><span class="lt-sep">/</span><span class="lt-en">EN</span>
@@ -25,14 +25,9 @@
 
       <h1>Marcelo Ferreira</h1>
 
-      <p class="role">
-        <span class="lang-pt">Professor de Estatística — UFPB</span>
-        <span class="lang-en">Statistics Professor — UFPB</span>
-      </p>
-
-      <p class="tagline">
-        <span class="lang-pt">Regressão robusta baseada em kernel, análise de sobrevivência e ensino de estatística &amp; ciência de dados.</span>
-        <span class="lang-en">Kernel-based robust regression, survival analysis, and statistics &amp; data science teaching.</span>
+      <p class="identity-line">
+        <span class="lang-pt">Pai de Lis e Isa, Cientista, Professor de Estatística e Ciência de Dados e Cervejeiro Caseiro&hellip;</span>
+        <span class="lang-en">Dad to Lis and Isa, Scientist, Professor of Statistics and Data Science, and Homebrewer&hellip;</span>
       </p>
 
       <!-- kernel density curve, signature element -->
@@ -70,186 +65,12 @@
       </nav>
 
       <nav class="section-nav" aria-label="Seções">
-        <a href="#ensino"><span class="lang-pt">Ensino</span><span class="lang-en">Teaching</span></a>
-        <a href="#gkrreg">gkrreg</a>
-        <a href="#sobre"><span class="lang-pt">Sobre</span><span class="lang-en">About</span></a>
-        <a href="#blog">Blog</a>
+        <a href="ensino.html"><span class="lang-pt">Ensino</span><span class="lang-en">Teaching</span></a>
+        <a href="gkrreg.html">gkrreg</a>
+        <a href="sobre.html"><span class="lang-pt">Sobre</span><span class="lang-en">About</span></a>
+        <a href="blog.html">Blog</a>
       </nav>
     </header>
-
-    <!-- ============ ENSINO ============ -->
-    <section id="ensino" class="section">
-      <p class="eyebrow"><span class="lang-pt">Ensino</span><span class="lang-en">Teaching</span></p>
-      <p class="section-intro">
-        <span class="lang-pt">Materiais de aula organizados por disciplina, publicados no <a href="https://rpubs.com/marcelo-ferreira" target="_blank" rel="noopener">RPubs</a>. Cada link abre a apresentação correspondente.</span>
-        <span class="lang-en">Course materials organized by subject, published on <a href="https://rpubs.com/marcelo-ferreira" target="_blank" rel="noopener">RPubs</a>. Each link opens the corresponding presentation.</span>
-      </p>
-
-      <div class="courses">
-
-        <article class="course">
-          <div class="course-head">
-            <h3><span class="lang-pt">Controle Estatístico de Processos</span><span class="lang-en">Statistical Process Control</span></h3>
-            <span class="tag"><span class="lang-pt">Graduação</span><span class="lang-en">Undergraduate</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Cartas de controle, capacidade de processo e estudos de caso com o pacote <code>qcc</code> em R.</span>
-            <span class="lang-en">Control charts, process capability, and case studies using the <code>qcc</code> R package.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula1" target="_blank" rel="noopener">1</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula2" target="_blank" rel="noopener">2</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula3" target="_blank" rel="noopener">3</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula4" target="_blank" rel="noopener">4</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula5" target="_blank" rel="noopener">5</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula6" target="_blank" rel="noopener">6</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula7" target="_blank" rel="noopener">7</a>
-            <a href="https://rpubs.com/marcelo-ferreira/cep-aula8" target="_blank" rel="noopener">8</a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course-head">
-            <h3>Bioestatística</h3>
-            <span class="tag"><span class="lang-pt">Graduação</span><span class="lang-en">Undergraduate</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Fundamentos de bioestatística aplicada, com exemplos em ciências da saúde.</span>
-            <span class="lang-en">Applied biostatistics fundamentals, with health-science examples.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/bioestatistica-aula1" target="_blank" rel="noopener">1</a>
-            <a href="https://rpubs.com/marcelo-ferreira/bioestatistica-aula2" target="_blank" rel="noopener">2</a>
-            <a href="https://rpubs.com/marcelo-ferreira/bioestatistica-aula3" target="_blank" rel="noopener">3</a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course-head">
-            <h3><span class="lang-pt">Métodos de Tomada de Decisão</span><span class="lang-en">Decision-Making Methods</span></h3>
-            <span class="tag"><span class="lang-pt">Pós-graduação · PPGMDS</span><span class="lang-en">Graduate · PPGMDS</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Teoria da decisão, racionalidade limitada, vieses cognitivos e sistemas de apoio à decisão. Coautoria com o Prof. Eufrásio de Andrade Lima Neto.</span>
-            <span class="lang-en">Decision theory, bounded rationality, cognitive biases, and decision support systems. Co-taught with Prof. Eufrásio de Andrade Lima Neto.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/mtd_aula1" target="_blank" rel="noopener">1</a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course-head">
-            <h3><span class="lang-pt">Introdução ao Aprendizado de Máquina</span><span class="lang-en">Introduction to Machine Learning</span></h3>
-            <span class="tag"><span class="lang-pt">Graduação</span><span class="lang-en">Undergraduate</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Introdução prática ao aprendizado de máquina com o ecossistema <code>tidymodels</code>.</span>
-            <span class="lang-en">Practical introduction to machine learning with the <code>tidymodels</code> ecosystem.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/intro-ml1" target="_blank" rel="noopener"><span class="lang-pt">Conceitos</span><span class="lang-en">Concepts</span></a>
-            <a href="https://rpubs.com/marcelo-ferreira/intro-ml2" target="_blank" rel="noopener">Tidymodels</a>
-            <a href="https://rpubs.com/marcelo-ferreira/exemplo-classificacao" target="_blank" rel="noopener"><span class="lang-pt">Classificação</span><span class="lang-en">Classification</span></a>
-            <a href="https://rpubs.com/marcelo-ferreira/exemplo-regressao" target="_blank" rel="noopener"><span class="lang-pt">Regressão</span><span class="lang-en">Regression</span></a>
-            <a href="https://rpubs.com/marcelo-ferreira/1410669" target="_blank" rel="noopener"><span class="lang-pt">Dia 1</span><span class="lang-en">Day 1</span></a>
-            <a href="https://rpubs.com/marcelo-ferreira/1410674" target="_blank" rel="noopener"><span class="lang-pt">Dia 2</span><span class="lang-en">Day 2</span></a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course-head">
-            <h3><span class="lang-pt">Ciência de Dados em Saúde</span><span class="lang-en">Data Science in Health</span></h3>
-            <span class="tag"><span class="lang-pt">Pós-graduação</span><span class="lang-en">Graduate</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Pré-processamento, avaliação de modelos, particionamento e otimização de hiperparâmetros.</span>
-            <span class="lang-en">Preprocessing, model evaluation, partitioning, and hyperparameter optimization.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/1227118" target="_blank" rel="noopener">1</a>
-            <a href="https://rpubs.com/marcelo-ferreira/1227170" target="_blank" rel="noopener">1b</a>
-            <a href="https://rpubs.com/marcelo-ferreira/1232150" target="_blank" rel="noopener">2</a>
-            <a href="https://rpubs.com/marcelo-ferreira/1238788" target="_blank" rel="noopener">3</a>
-            <a href="https://rpubs.com/marcelo-ferreira/1250492" target="_blank" rel="noopener">4</a>
-            <a href="https://rpubs.com/marcelo-ferreira/1252906" target="_blank" rel="noopener"><span class="lang-pt">Avaliação</span><span class="lang-en">Assessment</span></a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course-head">
-            <h3><span class="lang-pt">Materiais avulsos</span><span class="lang-en">Standalone materials</span></h3>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Notas de apoio sobre álgebra matricial e introdução à linguagem R.</span>
-            <span class="lang-en">Supporting notes on matrix algebra and an introduction to the R language.</span>
-          </p>
-          <div class="pill-row">
-            <a href="https://rpubs.com/marcelo-ferreira/Algebra_Matricial" target="_blank" rel="noopener"><span class="lang-pt">Álgebra Matricial</span><span class="lang-en">Matrix Algebra</span></a>
-            <a href="https://rpubs.com/marcelo-ferreira/introducao_a_linguagem_R" target="_blank" rel="noopener"><span class="lang-pt">Introdução ao R</span><span class="lang-en">Intro to R</span></a>
-          </div>
-        </article>
-
-        <article class="course course-guest">
-          <div class="course-head">
-            <h3><span class="lang-pt">Aprendizado de Máquina para Análise de Sobrevivência</span><span class="lang-en">Machine Learning for Survival Analysis</span></h3>
-            <span class="tag"><span class="lang-pt">Tutorial convidado · VII WASA, 2024</span><span class="lang-en">Invited tutorial · VII WASA, 2024</span></span>
-          </div>
-          <p class="course-desc">
-            <span class="lang-pt">Tutorial sobre Random Survival Forests e Support Vector Censored Regression, ministrado no VII Workshop em Análise de Sobrevivência e Aplicações (Brasília). Coautoria com Anderson Ara (UFPR), Agatha Rodrigues (UFES) e Raydonal Ospina (UFBA).</span>
-            <span class="lang-en">Tutorial on Random Survival Forests and Support Vector Censored Regression, delivered at the VII Workshop on Survival Analysis and Applications (Brasília). Co-authored with Anderson Ara (UFPR), Agatha Rodrigues (UFES), and Raydonal Ospina (UFBA).</span>
-          </p>
-          <div class="pill-row">
-            <a href="http://leg.ufpr.br/~ara/teach/wasa2024.html" target="_blank" rel="noopener"><span class="lang-pt">Ver material</span><span class="lang-en">View material</span></a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- ============ GKRREG ============ -->
-    <section id="gkrreg" class="section">
-      <p class="eyebrow">gkrreg</p>
-      <h2><span class="lang-pt">Regressão Robusta com Kernel Gaussiano</span><span class="lang-en">Gaussian Kernel Robust Regression</span></h2>
-      <p class="section-intro">
-        <span class="lang-pt">Pacote R para regressão robusta baseada em kernel gaussiano, com extensão para dados censurados via imputação de Buckley–James (<strong>GKRReg-BJ</strong>). Construído a partir da pesquisa original de De Carvalho, Lima Neto &amp; Ferreira (2017, <em>Neurocomputing</em>).</span>
-        <span class="lang-en">R package for robust Gaussian-kernel-based regression, extended to right-censored data via Buckley–James imputation (<strong>GKRReg-BJ</strong>). Built on the original research by De Carvalho, Lima Neto &amp; Ferreira (2017, <em>Neurocomputing</em>).</span>
-      </p>
-      <ul class="feature-list">
-        <li><span class="lang-pt">Estimação IRWLS com M-estimadores redescendentes.</span><span class="lang-en">IRWLS estimation with redescending M-estimators.</span></li>
-        <li><span class="lang-pt">Seleção automática de largura de banda (AICc, bootstrap OOB).</span><span class="lang-en">Automatic bandwidth selection (AICc, OOB bootstrap).</span></li>
-        <li><span class="lang-pt">Artigo técnico (JSS) com derivações completas e ilustração no conjunto <code>stars_cyg</code>.</span><span class="lang-en">Technical manuscript (JSS) with full derivations and illustration on the <code>stars_cyg</code> dataset.</span></li>
-      </ul>
-      <div class="pill-row">
-        <a href="https://github.com/marcelorpf" target="_blank" rel="noopener">GitHub&nbsp;↗</a>
-        <span class="pill-note"><span class="lang-pt">CRAN — em submissão</span><span class="lang-en">CRAN — submission pending</span></span>
-      </div>
-    </section>
-
-    <!-- ============ SOBRE ============ -->
-    <section id="sobre" class="section">
-      <p class="eyebrow"><span class="lang-pt">Sobre</span><span class="lang-en">About</span></p>
-      <p class="about-text">
-        <span class="lang-pt">Sou professor do Departamento de Estatística da UFPB, em João Pessoa. Pesquiso regressão robusta baseada em kernel e análise de sobrevivência, e ensino no Bacharelado em Estatística e Ciência de Dados e no PPGMDS (Programa de Pós-Graduação em Modelagem de Decisão e Saúde). Fora da sala de aula, sou pai, cervejeiro caseiro, e estou sempre testando algum fluxo de trabalho novo com R ou LLMs.</span>
-        <span class="lang-en">I'm a professor at the Department of Statistics, UFPB, in João Pessoa, Brazil. I research kernel-based robust regression and survival analysis, and teach in the undergraduate Statistics &amp; Data Science program and in PPGMDS (the Graduate Program in Decision Modeling and Health). Outside the classroom, I'm a dad, a homebrewer, and I'm always testing some new workflow with R or LLMs.</span>
-      </p>
-    </section>
-
-    <!-- ============ BLOG ============ -->
-    <section id="blog" class="section">
-      <p class="eyebrow">Blog</p>
-      <div class="empty-state">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="4" y="4" width="16" height="16" rx="1.5"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="12.5" x2="14" y2="12.5"/></svg>
-        <p>
-          <span class="lang-pt">Ainda não há posts por aqui — mas o espaço já está reservado.</span>
-          <span class="lang-en">No posts yet — but the space is reserved.</span>
-        </p>
-        <a href="mailto:marcelorpf@gmail.com?subject=Blog">
-          <span class="lang-pt">Avise-me quando sair →</span>
-          <span class="lang-en">Notify me when it's up →</span>
-        </a>
-      </div>
-    </section>
 
     <footer class="footer">
       <p>© <span id="year">2026</span> Marcelo Ferreira. <span class="lang-pt">Alguns direitos reservados.</span><span class="lang-en">Some rights reserved.</span> <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a></p>

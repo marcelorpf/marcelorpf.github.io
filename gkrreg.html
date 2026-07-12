@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gkrreg — Marcelo Ferreira</title>
+<meta name="description" content="gkrreg: pacote R para regressão robusta baseada em kernel gaussiano, com extensão para dados censurados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body data-lang="pt">
+
+  <div class="wrap">
+
+    <div class="topbar">
+      <a class="back-link" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg>
+        <span class="lang-pt">Início</span><span class="lang-en">Home</span>
+      </a>
+      <nav class="topbar-nav" aria-label="Seções">
+        <a href="ensino.html"><span class="lang-pt">Ensino</span><span class="lang-en">Teaching</span></a>
+        <a href="gkrreg.html" class="current">gkrreg</a>
+        <a href="sobre.html"><span class="lang-pt">Sobre</span><span class="lang-en">About</span></a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language" style="position:static;">
+        <span class="lt-pt">PT</span><span class="lt-sep">/</span><span class="lt-en">EN</span>
+      </button>
+    </div>
+
+    <section class="page-head">
+      <p class="eyebrow">gkrreg</p>
+      <h2><span class="lang-pt">Regressão Robusta com Kernel Gaussiano</span><span class="lang-en">Gaussian Kernel Robust Regression</span></h2>
+      <p class="section-intro">
+        <span class="lang-pt">Pacote R (disponível no CRAN) para regressão robusta que reduz o peso de outliers e pontos de leverage via mínimos quadrados reponderados iterativamente (IRWLS), guiado por um kernel gaussiano. Construído a partir da pesquisa original de De Carvalho, Lima Neto &amp; Ferreira (2017, <em>Neurocomputing</em>), em coautoria com o Prof. Eufrásio de Andrade Lima Neto.</span>
+        <span class="lang-en">An R package (on CRAN) for robust regression that down-weights outliers and leverage points via an iteratively re-weighted least squares algorithm (IRWLS) driven by a Gaussian kernel. Built on the original research by De Carvalho, Lima Neto &amp; Ferreira (2017, <em>Neurocomputing</em>), co-authored with Prof. Eufrásio de Andrade Lima Neto.</span>
+      </p>
+    </section>
+
+    <ul class="feature-list">
+      <li><span class="lang-pt">Quatro estimadores para a largura de banda (<code>s1</code>–<code>s4</code>) e seleção automática (<code>auto</code>) por bootstrap out-of-bag.</span><span class="lang-en">Four bandwidth estimators (<code>s1</code>–<code>s4</code>) and automatic selection (<code>auto</code>) via out-of-bag bootstrap.</span></li>
+      <li><span class="lang-pt">Inferência sandwich (HC0), analítica e sempre disponível, além de bootstrap pareado com intervalos BCa.</span><span class="lang-en">Analytic sandwich (HC0) inference, always available, plus pairs bootstrap with BCa confidence intervals.</span></li>
+      <li><span class="lang-pt">Seis conjuntos de dados e seis painéis de diagnóstico incluídos, cobrindo diferentes cenários de contaminação.</span><span class="lang-en">Six bundled datasets and six diagnostic panels, covering different contamination scenarios.</span></li>
+    </ul>
+
+    <div class="pill-row">
+      <a href="https://marcelorpf.github.io/gkrreg/" target="_blank" rel="noopener"><span class="lang-pt">Documentação</span><span class="lang-en">Documentation</span>&nbsp;↗</a>
+      <a href="https://github.com/marcelorpf/gkrreg" target="_blank" rel="noopener">GitHub&nbsp;↗</a>
+      <a href="https://CRAN.R-project.org/package=gkrreg" target="_blank" rel="noopener">CRAN&nbsp;↗</a>
+    </div>
+
+    <footer class="footer">
+      <p>© <span id="year">2026</span> Marcelo Ferreira. <span class="lang-pt">Alguns direitos reservados.</span><span class="lang-en">Some rights reserved.</span> <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a></p>
+    </footer>
+
+  </div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
